@@ -1,0 +1,46 @@
+
+@font-face {
+    font-family:Wavehaus-95SemiBold;
+    src: url(fonts/Wavehaus-95SemiBold.otf);
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: "Wavehaus-95SemiBold","arial";
+    background-color:rgb(248, 79, 37)
+                                                                                                                                                                                                                                                                                                                                                                                
+  
+}
+.loading {
+    max-width: 70%;
+    line-height: 1.4;
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+}
+.loading-author {
+    font-weight: normal;
+    font-size: 1.5rem;
+    color: rgb(231, 229, 229);
+    margin: 0.6rem 0 2rem 0;
+    display: block;
+}
+.loading-anim {
+    width: 55px;
+    height: 55px;
+    display: inline-block;
+    border: 5px solid rgba(189,189,189, 0.25);
+    border-left-color: rgb(255, 255, 255);
+    border-top-color: rgb(254, 255, 255);
+    border-radius: 50%;
+    animation: rotate 700ms infinite linear;
+    
+}
+@keyframes rotate {
+    to {
+        transform: rotate(1turn);
+    }
+}
